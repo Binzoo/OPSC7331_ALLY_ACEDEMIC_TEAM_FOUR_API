@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\controllers\\noticeboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\controllers\\noticeboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\repositories\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\repositories\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\noticeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\noticeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\dto\\noticeboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\dto\\noticeboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\dto\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\dto\\forgotpasswroddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\dto\\forgotpasswroddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\migrations\\20240919184126_inital migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\migrations\\20240919184126_inital migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\models\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|c:\\users\\binam\\source\\repos\\opsc7331_ally_acedemic_team_four_api\\opsc7331_ally_acedemic_team_four_api\\migrations\\20240919193334_added notice board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E2A6-6656-413B-87A3-6D111F0E31F1}|OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj|solutionrelative:opsc7331_ally_acedemic_team_four_api\\migrations\\20240919193334_added notice board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IEmailSender.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IEmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:23:03.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:02:44.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:08:57.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Program.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Program.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAmwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T17:33:38.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppUser.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppUser.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppUser.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Data\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:09:17.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IGenericRepository.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Interface\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:10:58.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\EmailService.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\EmailService.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\EmailService.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:22:28.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NoticeBoardController.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\NoticeBoardController.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\NoticeBoardController.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\NoticeBoardController.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\NoticeBoardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:18:19.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAA4wHUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:27:52.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\Repository.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Repositories\\Repository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:13:09.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NoticeBoard.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\NoticeBoard.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\NoticeBoard.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\NoticeBoard.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\NoticeBoard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:08:50.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NoticeBoardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\NoticeBoardDTO.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\NoticeBoardDTO.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\NoticeBoardDTO.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\NoticeBoardDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:25:47.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240919193334_Added Notice Board.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919193334_Added Notice Board.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919193334_Added Notice Board.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919193334_Added Notice Board.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919193334_Added Notice Board.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:33:34.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ResetPasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:06:17.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ForgotPasswrodDTO.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ForgotPasswrodDTO.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ForgotPasswrodDTO.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ForgotPasswrodDTO.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\ForgotPasswrodDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:05:50.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\PasswordReset.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\PasswordReset.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\PasswordReset.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:21:42.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Models\\DTO\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:30:05.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\appsettings.json",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T18:39:43.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240919184126_Inital Migration.cs",
+              "DocumentMoniker": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919184126_Inital Migration.cs",
+              "RelativeDocumentMoniker": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919184126_Inital Migration.cs",
+              "ToolTip": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919184126_Inital Migration.cs",
+              "RelativeToolTip": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\Migrations\\20240919184126_Inital Migration.cs",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T18:41:26.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

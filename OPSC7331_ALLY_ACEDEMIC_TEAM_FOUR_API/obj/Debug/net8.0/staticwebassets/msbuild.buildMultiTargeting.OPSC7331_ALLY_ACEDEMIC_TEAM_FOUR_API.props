@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.props" />
+</Project>

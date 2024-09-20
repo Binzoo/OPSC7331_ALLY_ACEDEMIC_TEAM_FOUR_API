@@ -1,0 +1,6 @@
+@OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API_HostAddress = http://localhost:5151
+
+GET {{OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
