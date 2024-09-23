@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj": {}
+    "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj": {
+    "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
+        "projectUniqueName": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
         "projectName": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
-        "projectPath": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
-        "packagesPath": "C:\\Users\\binam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\binam\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\obj\\",
+        "projectPath": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
+        "packagesPath": "/Users/binamrathapa/.nuget/packages/",
+        "outputPath": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\binam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/binamrathapa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

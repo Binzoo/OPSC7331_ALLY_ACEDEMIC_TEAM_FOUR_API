@@ -12,7 +12,9 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data
         }
         public DbSet<PasswordReset> PasswordResetsCodes { get; set; }
         public DbSet<NoticeBoard> NoticeBoards { get; set; }
-
+        public DbSet<Degree> Degrees { get; set; }
+        public DbSet<Module> Modules { get; set; }
+        public DbSet<HomeWork> HomeWorks { get; set; }
     }
 
 }

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "Dxqo5kcGaYAl7MB+blklxmnXp7zXxhC1OeU987Vz/PE=",
+  "Hash": "Omt40zI9bTMgw5EKsGy1COeRRJGIYXP6uy6Bj222oXA=",
   "Source": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
   "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot",
+      "Source": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "ContentRoot": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/",
+      "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

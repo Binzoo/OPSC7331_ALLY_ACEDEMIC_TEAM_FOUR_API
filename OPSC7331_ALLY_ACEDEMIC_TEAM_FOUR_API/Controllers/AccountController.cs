@@ -45,6 +45,19 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             return BadRequest(result.Errors);
         }
 
+        [HttpPost("register-admin")]
+        public async Task<IActionResult> RegisterAdmin([FromBody] RegisterDTO model)
+        {
+            var user = new AppUser { Email = model.Email, FirstName = model.FirstName, LastName = model.LastName, UserName = model.Email, College = model.College, Degree = model.Degree };
+            var result = await _userManager.CreateAsync(user, model.Password);
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(user, "ADMIN");
+                return Ok(new { message = "Admin registered successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
+
         [HttpPost("login-studnet")]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
@@ -113,20 +126,20 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             _context.PasswordResetsCodes.Add(resetEntry);
             await _context.SaveChangesAsync();
 
-            await SendPasswordResetCodeByEmail(user.Email, code);
+            await SendPasswordResetCodeByEmail(user.Email!, code);
             return Ok("Password rest code sent to your email.");
         }
 
         [HttpPost("reset-password")]
         public async Task<IActionResult> RestPassword([FromBody] ResetPasswordDTO model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
+            var user = await _userManager.FindByEmailAsync(model.Email!);
             if (user == null)
             {
                 return BadRequest("User not found");
             }
 
-            var isValidCode = await ValidateResetCodeAsync(user.Id, model.Code);
+            var isValidCode = await ValidateResetCodeAsync(user.Id, model.Code!);
             if (!isValidCode)
             {
                 return BadRequest("Invalid or Expired Code");
@@ -138,7 +151,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                 return BadRequest(removePasswordResult.Errors);
             }
 
-            var addPasswordResult = await _userManager.AddPasswordAsync(user, model.NewPassword);
+            var addPasswordResult = await _userManager.AddPasswordAsync(user, model.NewPassword!);
             if (!addPasswordResult.Succeeded)
             {
                 return BadRequest(addPasswordResult.Errors);

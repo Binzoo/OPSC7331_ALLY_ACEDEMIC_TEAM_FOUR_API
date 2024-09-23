@@ -236,6 +236,75 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Degree", b =>
+                {
+                    b.Property<int>("DegreeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DegreeID"));
+
+                    b.Property<string>("DegreeName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("DegreeID");
+
+                    b.ToTable("Degrees");
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.HomeWork", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ModuleID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ModuleID");
+
+                    b.ToTable("HomeWorks");
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", b =>
+                {
+                    b.Property<int>("ModuleID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ModuleID"));
+
+                    b.Property<int>("Credits")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DegreeID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModuleName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ModuleID");
+
+                    b.HasIndex("DegreeID");
+
+                    b.ToTable("Modules");
+                });
+
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.NoticeBoard", b =>
                 {
                     b.Property<int>("Id")
@@ -248,11 +317,12 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -269,14 +339,12 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Code")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ExpiryTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -333,6 +401,38 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.HomeWork", b =>
+                {
+                    b.HasOne("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", "Module")
+                        .WithMany("HomeWorks")
+                        .HasForeignKey("ModuleID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Module");
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", b =>
+                {
+                    b.HasOne("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Degree", "Degree")
+                        .WithMany("Modules")
+                        .HasForeignKey("DegreeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Degree");
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Degree", b =>
+                {
+                    b.Navigation("Modules");
+                });
+
+            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", b =>
+                {
+                    b.Navigation("HomeWorks");
                 });
 #pragma warning restore 612, 618
         }
