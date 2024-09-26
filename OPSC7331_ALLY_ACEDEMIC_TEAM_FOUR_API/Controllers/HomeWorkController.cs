@@ -48,7 +48,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             });
         }
 
-        [Authorize(Roles = "STUDENT")]
+        [Authorize(Roles = "student")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

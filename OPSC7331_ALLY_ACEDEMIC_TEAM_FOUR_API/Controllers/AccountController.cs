@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -180,6 +181,50 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             string message = $"Your password reset code is: {code}. This code will expire in 15 minutes.";
             await _emailService.SendEmailAsync(email, subject, message);
         }
+
+        [Authorize]
+        [HttpGet]
+        public async Task<IActionResult> GetUser()
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByEmailAsync(userEmail!);
+            return Ok(user);
+        }
+
+        [Authorize]
+        [HttpPost("UpdateUser")]
+        public async Task<IActionResult> UpdateUser(UserDTO model)
+        {
+            var userEmail = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await _userManager.FindByEmailAsync(userEmail!);
+
+            if (user == null)
+            {
+                return NotFound("User not found.");
+            }
+
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+
+            if (!string.IsNullOrWhiteSpace(model.Password))
+            {
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                var result = await _userManager.ResetPasswordAsync(user, token, model.Password);
+                if (!result.Succeeded)
+                {
+                    return BadRequest("Error updating password.");
+                }
+            }
+            var updateResult = await _userManager.UpdateAsync(user);
+
+            if (updateResult.Succeeded)
+            {
+                return Ok("User updated successfully.");
+            }
+            return BadRequest("Error updating user.");
+        }
+
+
 
     }
 }

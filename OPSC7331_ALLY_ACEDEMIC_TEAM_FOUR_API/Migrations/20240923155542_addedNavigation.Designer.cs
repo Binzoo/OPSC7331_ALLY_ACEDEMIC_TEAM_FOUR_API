@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 
@@ -11,9 +12,11 @@ using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240923155542_addedNavigation")]
+    partial class addedNavigation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -305,29 +308,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.ToTable("Modules");
                 });
 
-            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.MultiMedia", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("File")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ModuleName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("MultiMedias");
-                });
-
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.NoticeBoard", b =>
                 {
                     b.Property<int>("Id")
@@ -383,10 +363,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("EndPlace")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StartPlace")
+                    b.Property<string>("PlaceName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VideoUrl")

@@ -36,7 +36,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         }
 
 
-        [Authorize(Roles = "STUDENT")]
+        [Authorize(Roles = "student")]
         [HttpGet("get-student-degree-info")]
         public async Task<IActionResult> GetStudnetDegreeInfo()
         {

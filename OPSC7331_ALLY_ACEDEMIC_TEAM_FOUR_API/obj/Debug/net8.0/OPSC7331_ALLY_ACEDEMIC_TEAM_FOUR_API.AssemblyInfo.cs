@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eca43a31766eecb826a46a0f0e1293fdd7ec84b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8587c48d7803603b29729705a256d47e2c51653d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

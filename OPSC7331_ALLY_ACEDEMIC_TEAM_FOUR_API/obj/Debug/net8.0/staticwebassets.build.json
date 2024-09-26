@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Omt40zI9bTMgw5EKsGy1COeRRJGIYXP6uy6Bj222oXA=",
+  "Hash": "XZ2Ou9l8IaZnxgN7+lI/lL+Wy9+t+MrXOxHOThbHZ6k=",
   "Source": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
   "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
   "Mode": "Default",
@@ -15,5 +15,82 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip",
+      "SourceId": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/",
+      "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "RelativePath": "files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip"
+    },
+    {
+      "Identity": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg",
+      "SourceId": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/",
+      "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "RelativePath": "images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg"
+    },
+    {
+      "Identity": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg",
+      "SourceId": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/",
+      "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "RelativePath": "images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg"
+    },
+    {
+      "Identity": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png",
+      "SourceId": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/",
+      "BasePath": "_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
+      "RelativePath": "images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png"
+    }
+  ]
 }

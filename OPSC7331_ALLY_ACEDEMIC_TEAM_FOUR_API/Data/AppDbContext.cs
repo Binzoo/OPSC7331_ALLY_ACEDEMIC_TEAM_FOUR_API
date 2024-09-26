@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models;
 
 namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data
@@ -15,6 +16,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data
         public DbSet<Degree> Degrees { get; set; }
         public DbSet<Module> Modules { get; set; }
         public DbSet<HomeWork> HomeWorks { get; set; }
+        public DbSet<SchoolNavigation> SchoolNavigations { get; set; }
+        public DbSet<MultiMedia> MultiMedias { get; set; }
     }
-
 }
