@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 
@@ -11,9 +12,11 @@ using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240927193121_addedmoudleclass")]
+    partial class addedmoudleclass
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -240,32 +243,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Attendance", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AttendanceStatus")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Attendances");
-                });
-
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Degree", b =>
                 {
                     b.Property<int>("DegreeID")
@@ -333,33 +310,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.HasIndex("DegreeID");
 
                     b.ToTable("Modules");
-                });
-
-            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.ModuleClass", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("Date")
-                        .HasColumnType("datetime2");
-
-                    b.Property<TimeOnly>("EndTime")
-                        .HasColumnType("time");
-
-                    b.Property<int>("ModuleId")
-                        .HasColumnType("int");
-
-                    b.Property<TimeOnly>("StartTime")
-                        .HasColumnType("time");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ModuleId");
-
-                    b.ToTable("ModuleClasses");
                 });
 
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.MultiMedia", b =>
@@ -505,17 +455,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Attendance", b =>
-                {
-                    b.HasOne("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data.AppUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.HomeWork", b =>
                 {
                     b.HasOne("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", "Module")
@@ -538,17 +477,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.Navigation("Degree");
                 });
 
-            modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.ModuleClass", b =>
-                {
-                    b.HasOne("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", "Module")
-                        .WithMany("ModuleClasses")
-                        .HasForeignKey("ModuleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Module");
-                });
-
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Degree", b =>
                 {
                     b.Navigation("Modules");
@@ -557,8 +485,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
             modelBuilder.Entity("OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.Module", b =>
                 {
                     b.Navigation("HomeWorks");
-
-                    b.Navigation("ModuleClasses");
                 });
 #pragma warning restore 612, 618
         }

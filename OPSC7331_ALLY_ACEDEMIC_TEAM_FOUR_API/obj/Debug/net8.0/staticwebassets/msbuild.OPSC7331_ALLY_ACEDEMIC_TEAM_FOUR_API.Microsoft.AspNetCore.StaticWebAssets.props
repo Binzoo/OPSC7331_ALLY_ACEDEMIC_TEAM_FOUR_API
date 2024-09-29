@@ -32,6 +32,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</BasePath>
+      <RelativePath>images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
@@ -48,6 +64,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\DefaultPic.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</BasePath>
+      <RelativePath>images/DefaultPic.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\DefaultPic.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\eef3302f-728c-4fd4-93f6-cfb9229dbde0.png))">
       <SourceType>Package</SourceType>
       <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
@@ -63,6 +95,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\eef3302f-728c-4fd4-93f6-cfb9229dbde0.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</BasePath>
+      <RelativePath>images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile_pics\b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</BasePath>
+      <RelativePath>profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile_pics\b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile_pics\b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API</BasePath>
+      <RelativePath>profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\profile_pics\b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

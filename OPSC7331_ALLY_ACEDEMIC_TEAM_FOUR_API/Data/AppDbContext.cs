@@ -18,5 +18,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data
         public DbSet<HomeWork> HomeWorks { get; set; }
         public DbSet<SchoolNavigation> SchoolNavigations { get; set; }
         public DbSet<MultiMedia> MultiMedias { get; set; }
+        public DbSet<ModuleClass> ModuleClasses { get; set; }
+        public DbSet<Attendance> Attendances { get; set; }
     }
 }

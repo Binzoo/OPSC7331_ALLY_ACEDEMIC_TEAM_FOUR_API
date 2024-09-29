@@ -36,7 +36,16 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         [HttpPost("register-studnet")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
-            var user = new AppUser { Email = model.Email, FirstName = model.FirstName, LastName = model.LastName, UserName = model.Email, College = model.College, Degree = model.Degree };
+            var user = new AppUser
+            {
+                Email = model.Email,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                UserName = model.Email,
+                College = model.College,
+                Degree = model.Degree,
+                UserImageUrl = "/images/DefaultPic.png"
+            };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
@@ -49,7 +58,16 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         [HttpPost("register-admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] RegisterDTO model)
         {
-            var user = new AppUser { Email = model.Email, FirstName = model.FirstName, LastName = model.LastName, UserName = model.Email, College = model.College, Degree = model.Degree };
+            var user = new AppUser
+            {
+                Email = model.Email,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                UserName = model.Email,
+                College = model.College,
+                Degree = model.Degree,
+                UserImageUrl = "/images/DefaultPic.png"
+            };
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
@@ -193,7 +211,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
 
         [Authorize]
         [HttpPost("UpdateUser")]
-        public async Task<IActionResult> UpdateUser(UserDTO model)
+        public async Task<IActionResult> UpdateUser([FromForm] UserDTO model, IFormFile profilePicture)
         {
             var userEmail = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var user = await _userManager.FindByEmailAsync(userEmail!);
@@ -206,6 +224,32 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             user.FirstName = model.FirstName;
             user.LastName = model.LastName;
 
+            // Check if a new profile picture is uploaded
+            if (profilePicture != null && profilePicture.Length > 0)
+            {
+                // Define the directory where the images will be saved
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "profile_pics");
+
+                // Check if the directory exists, if not, create it
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                // Create a unique file name and save the file
+                var uniqueFileName = $"{user.Id}_{profilePicture.FileName}";
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profilePicture.CopyToAsync(stream);
+                }
+
+                // Update user's profile picture URL
+                user.UserImageUrl = $"/profile_pics/{uniqueFileName}";
+            }
+
+            // Check if a new password is provided
             if (!string.IsNullOrWhiteSpace(model.Password))
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(user);
@@ -215,15 +259,16 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                     return BadRequest("Error updating password.");
                 }
             }
+
             var updateResult = await _userManager.UpdateAsync(user);
 
             if (updateResult.Succeeded)
             {
-                return Ok("User updated successfully.");
+                return Ok(new { message = "User updated successfully.", profilePictureUrl = user.UserImageUrl });
             }
+
             return BadRequest("Error updating user.");
         }
-
 
 
     }

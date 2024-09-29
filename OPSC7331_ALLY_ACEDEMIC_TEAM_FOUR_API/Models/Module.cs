@@ -9,6 +9,7 @@ public class Module
     public string? ModuleName { get; set; }
     public int Credits { get; set; }
     public List<HomeWork> HomeWorks { get; set; }
+    public List<ModuleClass> ModuleClasses { get; set; }
     // Foreign Key
     public int DegreeID { get; set; }
     [JsonIgnore]

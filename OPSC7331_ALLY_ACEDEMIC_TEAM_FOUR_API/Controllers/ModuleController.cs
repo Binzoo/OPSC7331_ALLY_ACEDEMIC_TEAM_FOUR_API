@@ -23,7 +23,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var all = await _context.Modules.Include(e => e.HomeWorks).ToListAsync();
+            var all = await _context.Modules.Include(e => e.HomeWorks).Include(e => e.ModuleClasses).ToListAsync();
             // var allModule = await _generic.GetAllAsync();
             return Ok(all);
         }
@@ -43,6 +43,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                 ModuleName = model.ModuleName,
                 Credits = model.Credits,
                 DegreeID = model.DegreeID
+
             };
 
             await _generic.AddAsync(module);

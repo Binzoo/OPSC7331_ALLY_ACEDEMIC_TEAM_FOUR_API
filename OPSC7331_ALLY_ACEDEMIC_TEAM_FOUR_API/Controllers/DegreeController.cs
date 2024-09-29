@@ -31,7 +31,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         {
             // var user = User.FindFirst("sub").Value;
             // System.Console.WriteLine(user);
-            var degree = await _context.Degrees.ToListAsync();
+            var degree = await _context.Degrees.Include(e => e.Modules).ToListAsync();
             return Ok(degree);
         }
 
@@ -51,7 +51,8 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                 return NotFound("User not found.");
             }
 
-            var degree = await _context.Degrees.Where(e => e.DegreeName == user.Degree).Include(d => d.Modules)!.ThenInclude(e => e.HomeWorks).ToListAsync();
+            var degree = await _context.Degrees.Where(e => e.DegreeName == user.Degree).Include(d => d.Modules)!
+            .ThenInclude(e => e.HomeWorks).Include(f => f.Modules!).ThenInclude(o => o.ModuleClasses).ToListAsync();
 
             return Ok(degree);
         }

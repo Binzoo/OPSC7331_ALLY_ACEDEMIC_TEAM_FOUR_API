@@ -9,12 +9,32 @@
       "PackagePath": "staticwebassets/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg"
     },
     {
+      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/DefaultPic.png",
+      "PackagePath": "staticwebassets/images/DefaultPic.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg",
+      "PackagePath": "staticwebassets/images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg"
+    },
+    {
       "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg",
       "PackagePath": "staticwebassets/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg"
     },
     {
       "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png",
       "PackagePath": "staticwebassets/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg",
+      "PackagePath": "staticwebassets/images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg",
+      "PackagePath": "staticwebassets/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg",
+      "PackagePath": "staticwebassets/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Microsoft.AspNetCore.StaticWebAssets.props",
