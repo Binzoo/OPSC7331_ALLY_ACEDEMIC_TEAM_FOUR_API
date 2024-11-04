@@ -297,6 +297,9 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Migrations
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("LastUpdated")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("ModuleID")
                         .HasColumnType("int");
 

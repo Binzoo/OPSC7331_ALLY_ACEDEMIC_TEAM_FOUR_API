@@ -105,7 +105,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
-    options.AddPolicy("SponsorPolicy", policy => policy.RequireRole("Studnet"));
+    options.AddPolicy("SponsorPolicy", policy => policy.RequireRole("Student"));
     options.AddPolicy("StudentPolicy", policy => policy.RequireRole("Lecturer"));
 });
 
@@ -124,7 +124,7 @@ builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(Repository<>));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();

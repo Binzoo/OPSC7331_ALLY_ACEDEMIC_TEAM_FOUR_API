@@ -18,6 +18,7 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
         private readonly IGenericRepository<HomeWork> _generic;
         private readonly AppDbContext _context;
         public UserManager<AppUser> _userManger;
+
         public HomeWorkController(IGenericRepository<HomeWork> generic, AppDbContext context, UserManager<AppUser> userManger)
         {
             _generic = generic;
@@ -38,17 +39,18 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                 Title = model.Title,
                 Description = model.Description,
                 ModuleID = model.ModuleID,
-                DueDate = model.DueDate
+                DueDate = model.DueDate,
+                LastUpdated = DateTime.UtcNow // Set LastUpdated to current time
             };
 
             await _generic.AddAsync(homeWork);
             return Ok(new
             {
-                message = "Home work has been added."
+                message = "Homework has been added."
             });
         }
 
-        [Authorize(Roles = "student")]
+        [Authorize(Roles = "student,lecturer")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -57,24 +59,36 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             {
                 return Unauthorized("User email not found.");
             }
+
             var user = await _userManger.FindByEmailAsync(userEmail);
             if (user == null)
             {
                 return NotFound("User not found.");
             }
+
             var degree = await _context.Degrees.FirstOrDefaultAsync(e => e.DegreeName == user.Degree);
             if (degree == null)
             {
                 return NotFound("Degree not found.");
             }
+
             var modules = await _context.Modules.Where(e => e.DegreeID == degree.DegreeID).ToListAsync();
             if (modules == null || !modules.Any())
             {
                 return NotFound("Modules not found.");
             }
+
             var moduleIds = modules.Select(m => m.ModuleID).ToList();
             var homeWorks = await _context.HomeWorks
                 .Where(h => moduleIds.Contains(h.ModuleID))
+                .Select(h => new HomeWorkDTO
+                {
+                    Title = h.Title,
+                    Description = h.Description,
+                    ModuleID = h.ModuleID,
+                    DueDate = h.DueDate,
+                    LastUpdated = h.LastUpdated // Include LastUpdated in the response
+                })
                 .ToListAsync();
 
             return Ok(homeWorks);

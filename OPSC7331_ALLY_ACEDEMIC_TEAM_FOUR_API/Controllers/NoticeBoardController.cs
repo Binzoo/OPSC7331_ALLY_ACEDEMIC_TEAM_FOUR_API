@@ -1,12 +1,16 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Interface;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models.DTO;
-using System.Reflection.Metadata.Ecma335;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Text;
+
 
 namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
 {
@@ -14,11 +18,15 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
     [ApiController]
     public class NoticeBoardController : ControllerBase
     {
-
         private readonly IGenericRepository<NoticeBoard> _generic;
-        public NoticeBoardController(IGenericRepository<NoticeBoard> generic)
+        private readonly IConfiguration _configuration;
+        private readonly HttpClient _httpClient;
+
+        public NoticeBoardController(IGenericRepository<NoticeBoard> generic, IConfiguration configuration)
         {
             _generic = generic;
+            _configuration = configuration;
+            _httpClient = new HttpClient();
         }
 
         [HttpGet]
@@ -65,9 +73,41 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
 
             await _generic.AddAsync(noticeBoard);
 
+            // Trigger push notification after successfully adding the noticeboard
+            await SendPushNotificationAsync(noticeBoard.Name, noticeBoard.Description);
+
             return Ok(new { message = "Notice board has been added.", imagePath = relativeImagePath });
         }
 
+        private async Task SendPushNotificationAsync(string title, string message)
+        {
+            var notification = new
+            {
+                app_id = _configuration["OneSignal:AppId"],
+                headings = new { en = title },
+                contents = new { en = message },
+                included_segments = new[] { "All" }
+            };
+
+            var json = JsonConvert.SerializeObject(notification);
+
+            var content = new StringContent(json, Encoding.UTF8);
+            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri("https://onesignal.com/api/v1/notifications"),
+                Headers =
+        {
+            { "Authorization", $"Basic {_configuration["OneSignal:ApiKey"]}" }
+        },
+                Content = content
+            };
+
+            var response = await _httpClient.SendAsync(request);
+            response.EnsureSuccessStatusCode();
+        }
 
         [Authorize(Roles = "admin")]
         [HttpPut]
@@ -121,30 +161,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             await _generic.UpdateAsync(noticeb);
 
             return Ok("Notice board has been updated.");
-        }
-
-        [Authorize(Roles = "admin")]
-        [HttpDelete]
-        public async Task<IActionResult> DeleteNoticeBoard(int id)
-        {
-            var noticeBoard = await _generic.GetByIdAsync(id);
-
-            if (noticeBoard == null)
-            {
-                return NotFound("Notice board not found.");
-            }
-            if (!string.IsNullOrEmpty(noticeBoard.Image))
-            {
-                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", noticeBoard.Image.TrimStart('/'));
-
-                if (System.IO.File.Exists(imagePath))
-                {
-                    System.IO.File.Delete(imagePath);
-                }
-            }
-            await _generic.DeleteAsync(noticeBoard);
-
-            return Ok("Notice board has been deleted successfully.");
         }
 
     }

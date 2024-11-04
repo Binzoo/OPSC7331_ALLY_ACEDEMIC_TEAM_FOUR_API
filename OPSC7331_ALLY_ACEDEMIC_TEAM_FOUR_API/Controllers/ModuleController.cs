@@ -43,7 +43,6 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
                 ModuleName = model.ModuleName,
                 Credits = model.Credits,
                 DegreeID = model.DegreeID
-
             };
 
             await _generic.AddAsync(module);

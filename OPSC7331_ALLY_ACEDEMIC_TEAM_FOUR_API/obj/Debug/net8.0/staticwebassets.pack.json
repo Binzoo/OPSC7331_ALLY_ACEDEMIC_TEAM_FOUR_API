@@ -1,39 +1,127 @@
 {
   "Files": [
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip",
       "PackagePath": "staticwebassets/files/1713f824-74d5-4bad-a6ce-e54d028bf220.zip"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/files/53457f5c-efaa-42a7-8e70-6312d3f5ca89.tmp",
+      "PackagePath": "staticwebassets/files/53457f5c-efaa-42a7-8e70-6312d3f5ca89.tmp"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/files/64283538-bdb7-46d0-98b7-97ced9bfe6b8.tmp",
+      "PackagePath": "staticwebassets/files/64283538-bdb7-46d0-98b7-97ced9bfe6b8.tmp"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/1fb793a9-dec3-4a95-8743-f02a1bed72d5.jpg",
+      "PackagePath": "staticwebassets/images/1fb793a9-dec3-4a95-8743-f02a1bed72d5.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/25cc9600-7057-4656-a440-5d1c4b2405f1.png",
+      "PackagePath": "staticwebassets/images/25cc9600-7057-4656-a440-5d1c4b2405f1.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/27995fba-c339-48f2-a7b7-b7e93610f466.jpg",
+      "PackagePath": "staticwebassets/images/27995fba-c339-48f2-a7b7-b7e93610f466.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/3fc6281d-58a0-41c1-bd40-25459b1292c6.jpg",
+      "PackagePath": "staticwebassets/images/3fc6281d-58a0-41c1-bd40-25459b1292c6.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg",
       "PackagePath": "staticwebassets/images/407e700d-f5fb-4c5c-9bd1-6c537f26cb5e.jpg"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/DefaultPic.png",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/50ad7de0-44e6-4f71-880a-dc55153917a7.png",
+      "PackagePath": "staticwebassets/images/50ad7de0-44e6-4f71-880a-dc55153917a7.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/50cee015-ce2a-459d-8500-6060cc5e5aa0.png",
+      "PackagePath": "staticwebassets/images/50cee015-ce2a-459d-8500-6060cc5e5aa0.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/60481fc6-d288-4aaf-bfaf-3c8d64c9633c.jpg",
+      "PackagePath": "staticwebassets/images/60481fc6-d288-4aaf-bfaf-3c8d64c9633c.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/662e6f8e-40b3-4127-b2a3-35bdd8f13783.jpg",
+      "PackagePath": "staticwebassets/images/662e6f8e-40b3-4127-b2a3-35bdd8f13783.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/6631bc16-3f88-44bb-8588-2281f893fd2e.jpg",
+      "PackagePath": "staticwebassets/images/6631bc16-3f88-44bb-8588-2281f893fd2e.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/70e646f4-310e-432e-8399-84a8cd03f530.jpg",
+      "PackagePath": "staticwebassets/images/70e646f4-310e-432e-8399-84a8cd03f530.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/79779fa7-b7f7-4f58-9a57-d5215a1e5764.jpg",
+      "PackagePath": "staticwebassets/images/79779fa7-b7f7-4f58-9a57-d5215a1e5764.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/99923136-0a06-495a-a644-4a0fb739f6a0.png",
+      "PackagePath": "staticwebassets/images/99923136-0a06-495a-a644-4a0fb739f6a0.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/DefaultPic.png",
       "PackagePath": "staticwebassets/images/DefaultPic.png"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ab35dc5c-2b43-4840-886d-230cf9c185c5.jpeg",
+      "PackagePath": "staticwebassets/images/ab35dc5c-2b43-4840-886d-230cf9c185c5.jpeg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ab5ca1fb-ab31-46f4-a60f-dccc4b539556.jpg",
+      "PackagePath": "staticwebassets/images/ab5ca1fb-ab31-46f4-a60f-dccc4b539556.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/c765debb-ff09-440a-a855-5548ca05cd3d.jpg",
+      "PackagePath": "staticwebassets/images/c765debb-ff09-440a-a855-5548ca05cd3d.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/cce5fd75-5498-4c0c-9893-42877fff9c3c.jpeg",
+      "PackagePath": "staticwebassets/images/cce5fd75-5498-4c0c-9893-42877fff9c3c.jpeg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg",
       "PackagePath": "staticwebassets/images/d0fe5975-0f52-4485-a69d-7dba4509c767.jpeg"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg",
       "PackagePath": "staticwebassets/images/da300d81-9fde-49eb-af99-613d1fb9c4ed.jpg"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ddc9572f-5d6a-43e8-838b-ac1039604367.png",
+      "PackagePath": "staticwebassets/images/ddc9572f-5d6a-43e8-838b-ac1039604367.png"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/e45a081a-6c42-4c90-873f-8e07f50b8b3a.jpg",
+      "PackagePath": "staticwebassets/images/e45a081a-6c42-4c90-873f-8e07f50b8b3a.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ebcf871d-52bd-43aa-b7e5-0cc7503d76c4.jpg",
+      "PackagePath": "staticwebassets/images/ebcf871d-52bd-43aa-b7e5-0cc7503d76c4.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ec9950fb-9ecf-4c40-9dc6-11e3a0138794.jpg",
+      "PackagePath": "staticwebassets/images/ec9950fb-9ecf-4c40-9dc6-11e3a0138794.jpg"
+    },
+    {
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png",
       "PackagePath": "staticwebassets/images/eef3302f-728c-4fd4-93f6-cfb9229dbde0.png"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg",
       "PackagePath": "staticwebassets/images/ef50c79d-0cc9-4f05-a605-937d369ecc7f.jpg"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg",
       "PackagePath": "staticwebassets/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_1000000018.jpg"
     },
     {
-      "Id": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg",
+      "Id": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/wwwroot/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg",
       "PackagePath": "staticwebassets/profile_pics/b8631490-7288-4ce9-96fa-9764626fcc18_IMG_7053.jpeg"
     },
     {

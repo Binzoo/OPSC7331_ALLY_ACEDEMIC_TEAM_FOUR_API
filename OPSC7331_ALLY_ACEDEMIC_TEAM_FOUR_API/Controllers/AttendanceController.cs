@@ -1,10 +1,8 @@
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Data;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Interface;
 using OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Models;
@@ -41,13 +39,10 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             var userAttendance = await _context.Attendances
                                                .Where(e => e.UserId == user.Id)
                                                .ToListAsync();
-
-
+            
             return Ok(userAttendance);
         }
-
-
-
+        
         [HttpPost]
         public async Task<IActionResult> RegisterAttendance([FromBody] AttendanceDTO attendanceDTO)
         {

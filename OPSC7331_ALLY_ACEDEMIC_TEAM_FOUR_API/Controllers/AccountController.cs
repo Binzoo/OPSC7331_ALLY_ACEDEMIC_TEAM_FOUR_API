@@ -55,6 +55,28 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             return BadRequest(result.Errors);
         }
 
+        [HttpPost("register-lecturer")]
+        public async Task<IActionResult> RegisterLectutre([FromBody] RegisterDTO model)
+        {
+            var user = new AppUser
+            {
+                Email = model.Email,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                UserName = model.Email,
+                College = model.College,
+                Degree = model.Degree,
+                UserImageUrl = "/images/DefaultPic.png"
+            };
+            var result = await _userManager.CreateAsync(user, model.Password);
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(user, "Lecturer");
+                return Ok(new { message = "Admin registered successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
+
         [HttpPost("register-admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] RegisterDTO model)
         {
@@ -71,11 +93,12 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(user, "ADMIN");
+                await _userManager.AddToRoleAsync(user, "Admin");
                 return Ok(new { message = "Admin registered successfully" });
             }
             return BadRequest(result.Errors);
         }
+
 
         [HttpPost("login-studnet")]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)

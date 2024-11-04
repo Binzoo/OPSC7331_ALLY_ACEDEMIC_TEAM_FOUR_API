@@ -1050,6 +1050,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -3524,6 +3537,33 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -4675,6 +4715,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
       "MimeKit >= 4.7.1",
+      "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4684,11 +4725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
+      "projectUniqueName": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
       "projectName": "OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API",
-      "projectPath": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
+      "projectPath": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.csproj",
       "packagesPath": "/Users/binamrathapa/.nuget/packages/",
-      "outputPath": "/Users/binamrathapa/Desktop/OpenSource/back-end/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/obj/",
+      "outputPath": "/Users/binamrathapa/Downloads/mk opsc test/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/binamrathapa/.nuget/NuGet/NuGet.Config"
@@ -4755,6 +4796,10 @@
           "MimeKit": {
             "target": "Package",
             "version": "[4.7.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

@@ -8,4 +8,7 @@ public class HomeWorkDTO
     public string Description { get; set; }
     public int ModuleID { get; set; }
     public DateTime DueDate { get; set; }
+
+    public DateTime LastUpdated { get; set; } // New field for tracking updates
+
 }

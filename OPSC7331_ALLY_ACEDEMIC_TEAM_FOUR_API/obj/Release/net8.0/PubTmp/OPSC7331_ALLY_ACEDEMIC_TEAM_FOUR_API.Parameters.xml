@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="academic-ally-opsc7312" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\lab_services_student\\source\\repos\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

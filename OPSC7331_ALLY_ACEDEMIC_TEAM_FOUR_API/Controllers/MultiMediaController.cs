@@ -41,10 +41,10 @@ namespace OPSC7331_ALLY_ACEDEMIC_TEAM_FOUR_API.Controllers
             var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".pdf", ".zip" };
 
             // Check if the uploaded file has an allowed extension
-            if (!allowedExtensions.Contains(extension.ToLower()))
-            {
-                return BadRequest("Only .jpg, .jpeg, .png, .gif, .pdf, and .zip files are allowed.");
-            }
+           // if (!allowedExtensions.Contains(extension.ToLower()))
+            //{
+             //   return BadRequest("Only .jpg, .jpeg, .png, .gif, .pdf, and .zip files are allowed.");
+           // }
 
             // Generate a new unique file name
             var fileName = $"{Guid.NewGuid()}{extension}";

@@ -13,4 +13,6 @@ public class HomeWork
     public int ModuleID { get; set; }
     [JsonIgnore]
     public Module Module { get; set; }
+    public DateTime LastUpdated { get; set; }  // New field for tracking updates
+
 }
